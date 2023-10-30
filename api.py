@@ -10,11 +10,11 @@ app = Flask(__name__)
 
 #setting up connection to mysql database
 app.config['MYSQL_USER'] = 'root'
-app.config['MYSQL_PASSWORD'] = 'Ganesha@9342'
+app.config['MYSQL_PASSWORD'] = 'Krishna@2604'
 app.config['MYSQL_HOST'] = '127.0.0.1'
 app.config['MYSQL_DB'] = 'apple'
-app.config['MAX_CONTENT_LENGTH'] = 2 * 1024 * 1024
-types = ['jpg', 'png', 'gif']
+app.config['MAX_CONTENT_LENGTH'] = 4 * 1024 * 1024
+types = ['txt', 'docx', 'pdf']
 
 
 mysql = MySQL(app)
@@ -30,7 +30,7 @@ def home():
 app.config['SECRET_KEY'] = '123456' 
 
 # Simulated user database (for demonstration purposes)
-users = {'pavithra': '123456'}
+users = {'pavana': '123456'}
 
 classes = {
     "software architecture" : "123",
