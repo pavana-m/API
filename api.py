@@ -6,7 +6,7 @@ import jwt
 from jwt.exceptions import ExpiredSignatureError, InvalidTokenError
 from werkzeug.utils import secure_filename
  
-app = Flask(__name__) 
+app = Flask(__name__) #name
 
 #setting up connection to mysql database
 app.config['MYSQL_USER'] = 'root'
