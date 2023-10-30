@@ -33,8 +33,8 @@ app.config['SECRET_KEY'] = '123456'
 users = {'pavana': '123456'}
 
 classes = {
-    "software architecture" : "123",
-    "machine learning" : "234"
+    "Chicken Biryani" : "123",
+    "Burritto" : "234"
 }
 
 folder = 'static/photos'
